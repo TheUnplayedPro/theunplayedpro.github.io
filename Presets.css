@@ -1,0 +1,196 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    color: #000000      ;
+    font-family: "Lato", sans-serif;
+    list-style: none;
+}
+
+::-webkit-scrollbar{
+
+    width: 7px;
+}
+
+::-webkit-scrollbar-track{
+
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background: #000000;
+}
+/* Navbar Presets */
+
+/* Navbar-Top Presets*/
+
+.Navbar-top-layout{                         /* Kommt an die DIv um alle Elemente der Navbar */
+
+    display: flex;                          /*  */
+    justify-content: space-between;         /*  */
+    padding: 20px;                          /* Bestimmte die Größe der Navbar */
+    padding-bottom: 30px;                   /* Bestimmte die Größe der Navbar (Unterseite) */
+    background-color: #000000;
+}
+
+.Navbar-top-decoration{                     /* für die Div der Links  */
+
+    display: inline-block;                  /*  */
+    border-bottom: 1px solid transparent;   /*  */
+    transition: border 0.5s;    
+    transition: color 0.4s;                 /*  */
+    margin-left: 15px;                      /* Wie weit vom Rand entfernt */
+    margin-right: 30px;      
+    text-transform: uppercase;   
+    margin-top:4px           
+}
+
+.Navbar-top-decoration a{                      /* für die Elemte der Links (Die Art Wechseln nicht Vergessen) */
+
+    display: inline-block; 
+    margin-top: 7px;                            /* Wie Weit die Überzeichnung entfern sein soll */
+    padding-bottom: 5px; padding-top: 5px;      /* Wie Weit die UNterzeichnung vom Text Entfernt sein soll */
+    color: #ffffff;                           /*  */
+    border-bottom: 1px solid transparent;       /* für Animation der Unterzeichnung Notwendig */
+    transition: border 0.5s; 
+    transition:  text-shadow 0.7s;     
+    transition: color 0.7s;                     /*  */
+    margin-left: 8px;                           /*  */
+    margin-right: 30px;                         /*  */
+
+}
+
+.Navbar-top-decoration a:hover{
+
+    text-shadow: 0px 0px 10px rgba(255, 251, 0, 1);
+    color: #9c7e1c;
+    border-bottom: 1px solid #a8a8a8;
+
+}
+
+.Navbar-top-decoration:hover {
+    margin-top: 3px;
+    border-top: 1px solid #9c7e1c;
+}
+
+.Navbar-extend-icon{
+    height: 20px;
+    width: 20px;
+    filter: invert(100%);
+    display: flex;                          /*  */
+    justify-content:right; 
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+
+/* Navbar-Top Presets*/
+
+
+/* Navbar Presets */
+
+
+
+/* Haupseitenlayout Presets */
+
+
+/* Mit Bilder-Parallax */
+
+.Main-parallax-image-all{
+
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Main-parallax-image1{
+    background-image: url("Bilder/NfS2560x1440.png");
+    text-align: center;
+    width: 100%;
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.Main-parallax-image2{
+    background-image: url("Bilder/280805_05.jpg");
+    text-align: center;
+    width: 100%;
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.Main-parallax-image3{
+
+    background-image: url("Bilder/Fallout76.jpg");
+    text-align: center;
+    width: 100%;
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Main-parallax-text{
+    font-size: 40px;
+    background-color: #000000;
+    padding: 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+
+    .Main-parallax-text p {
+        font-size: 40px;
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 600;
+        padding: 40px;
+        padding-top: 10px;
+        margin: 0;
+        font-family: "Odibee Sans";
+        text-shadow: 2px 2px 24px #1874CD;
+    }
+
+    .Main-parallax-text h5 {
+        font-size: 70px;
+        color: #bbbbdcf5;
+        background-color: #000000;
+        text-align: center;
+        font-weight: 600;
+        padding: 15px;
+        padding-top: 8px;
+        text-shadow: 1px 1px 11px #ffffff81;
+        font-family: "Lato";
+        font-style:        
+    }
+
+.Main-parallax-heading {
+    font-size: 80px;
+    padding-top: 300px;
+    font-family: "Anton";
+    color: #000000c3;
+    text-shadow: 2px 2px 24px #1874CD;
+}
+
+
+.Tabelle-test{
+
+    	border: #000000, 10 px;    
+        border-style: solid;
+        padding: ;
+}
